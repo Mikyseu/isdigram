@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  background-color: #F3EDC8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  margin: 0;
+  padding: 0 5vw;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.round-button {
+  border-radius: 5px;
+  margin: 10px 0;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #FFCF81;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: fit-content;
+}
+
+.submit-button {
+  background-color: #FFCF81;
+  display: inline-block;
+  box-shadow: 1px 2px 3px rgba(128, 128, 128, 0.6);
+}
+
+.cancel-button {
+  background-color: #E8E8E8;
+  color: black;
+  box-shadow: 1px 2px 3px rgba(128, 128, 128, 0.6);
+}
+
+img {
+  max-width: 100%;
+}
+
+.create-post {
+  margin-bottom: 50px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #FBF3D5;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5vw;
+  display: inline-block;
+}
+
+.edit-post {
+  margin-bottom: 50px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #FFF7D4;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5vw;
+  box-shadow: 1px 2px 3px rgba(128, 128, 128, 0.6);
+}
+
+.user-list__item {
+  cursor: pointer;
+}
+
+.user-list__item--online::marker {
+  color: #06CF31;
+}
+
+.user-list__item--offline::marker {
+  color: #E50202;
+}
+
+.message-list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  background-color: white;
+  box-shadow: 1px 2px 3px rgba(128, 128, 128, 0.3);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.message-list__item--left {
+  align-self: flex-start;
+  background-color: #DDDDDD;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 3px;
+  box-shadow: 1px 2px 3px rgba(128, 128, 128, 0.6);
+}
+
+.message-list__item--right {
+  align-self: flex-end;
+  background-color: #C5EBAA;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 3px;
+  box-shadow: 1px 2px 3px rgba(128, 128, 128, 0.6);
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #F3EDC8;
+}
+
+.main {
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+* h1 {
+  color: #FBF3D5;
+  background-color: #ECB159;
+  border-radius: 3px;
+  padding: 5px;
+  text-align: center;
+}
+
+* h3 {
+  color: #FBF3D5;
+  background-color: #ECB159;
+  padding-left: 5px;
+  border-radius: 3px;
+  box-shadow: 1px 2px 3px rgba(128, 128, 128, 0.6);
+}
+
+* Button {
+  margin: 5px;
+  box-shadow: 1px 2px 3px rgba(128, 128, 128, 0.6);
+}
+
+* Input {
+  border: none;
+  box-shadow: inset 1px 1px 3px rgba(128, 128, 128, 0.6);
+}
+
+/*# sourceMappingURL=index.css.map */

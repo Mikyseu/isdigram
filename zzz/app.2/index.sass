@@ -1,0 +1,39 @@
+@use './resets'
+
+@use './components/library/RoundButton'
+@use './components/library/SubmitButton'
+@use './components/library/CancelButton'
+
+@use './components/PostList'
+@use './components/CreatePost'
+@use './components/EditPost'
+@use './components/UserList'
+@use './components/MessageList'
+@use './components/Footer'
+
+.main
+  margin-bottom: 50px
+  width: 100%
+
+*h1
+  color: #FBF3D5
+  background-color: #ECB159
+
+  border-radius: 3px
+  padding: 5px
+  text-align: center
+
+*h3
+  color: #FBF3D5
+  background-color: #ECB159
+  padding-left: 5px
+  border-radius: 3px
+  box-shadow: 1px 2px 3px rgba(128, 128, 128, 0.6)
+
+*Button
+  margin: 5px
+  box-shadow: 1px 2px 3px rgba(128, 128, 128, 0.6)
+
+*Input
+  border: none
+  box-shadow: inset 1px 1px 3px rgba(128, 128, 128, 0.6)

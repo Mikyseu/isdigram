@@ -1,0 +1,14 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha data",
+    "test-inspect": "npx mocha --inspect-brk data"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

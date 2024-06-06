@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  background-color: #F3EDC8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  margin: 0;
+  padding: 0 5vw;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=resets.css.map */
